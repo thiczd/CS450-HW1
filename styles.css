@@ -20,4 +20,23 @@ body {
 
 .section {
   margin: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.section p,
+h4 {
+  margin-left: 12vw;
+  padding: 0;
+}
+
+.section h3 {
+  margin-top: 0;
+}
+
+.section-job {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
