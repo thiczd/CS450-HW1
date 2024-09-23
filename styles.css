@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.cv-header {
+  margin: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cv-header h2 {
+  font-weight: normal;
+}
+
+.cv-header-divider {
+  border-top: 6px solid orange;
+  width: 100%;
+  margin: 0;
+}
+
+.section {
+  margin: 24px;
+}
